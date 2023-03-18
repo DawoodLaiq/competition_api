@@ -1,7 +1,5 @@
 # competition_api
-This is a customisable Fast API app that can be used to host a variety of competitions or quizzes. It can be accessed via API calls or via a pip installed package
-
-The main.py rests on the FastAPI server, it connects to the database and anwers API calls
+This is a Python package for a quiz game that communicates with a server API. It allows users to login, retrieve questions, submit answers, view the scoreboard, and track their own answered questions. The script includes classes for Quiz, Team, and Scoreboard, which are used to store and manipulate data related to teams and their performance in the quiz. The Scoreboard class includes a method for printing team rankings. The script also includes an interactive menu that prompts users to choose from a list of options.
 
 The oo_package.py file is pip installed locally it simplifies the API calls, provides a CLI interface and prints rankings. It will have the capacity to encrypt sensitive data like the competition answers.
 
