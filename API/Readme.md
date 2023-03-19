@@ -1,5 +1,0 @@
-# FastAPI application
-
-This is a Python web application built with the FastAPI framework that serves a quiz-style game. The application connects to an SQLite database to retrieve questions, validate team logins, and update team scores. The API includes several endpoints that return data in JSON format.
-
-The / endpoint returns the number of questions in the database. The /login endpoint checks the team's login credentials against the database and returns their score, solved questions, and team color if successful. The /get_question/{id} endpoint retrieves a question by ID and, if available, returns any attachments associated with it. The /download_starter_code/{id} and /download_input_file/{id} endpoints allow users to download starter code and input files for a given question. The /get_teams_table endpoint returns a list of all teams and their scores. Finally, the /submit_answer endpoint accepts a POST request containing a team's answer to a question and updates the team's score if the answer is correct.
