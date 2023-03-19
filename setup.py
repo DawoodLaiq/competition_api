@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="TeamQuiz",
-    version="0.0.4-alpha",
+    version="0.0.4",
     author="Dawood",
     description="A simple quiz program",
     packages=find_packages(),
